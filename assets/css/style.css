@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+:root {
+    /* Colors */
+    --brand-red: #FF0033;
+    --brand-green: #2BD99A;
+    --brand-blue: #00AAFF;
+    /* Typography */
+    --font-family: 'Syne', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-image: url("../img/wallpapers/light.png");
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar .left,
+.navbar .right {
+    flex: 25%;
+}
+
+.navbar .center {
+    flex: 50%;
+}
+
+.navbar .center {
+    text-align: center;
+}
+
+.navbar .right {
+    text-align: right;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navlink {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--brand-red);
+    font-family: var(--font-family);
+    line-height: 1;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    font-family: var(--font-family);
+    line-height: 1;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.red-text {
+    color: var(--brand-red);
+}
+
+.black-text {
+    color: #000000;
+}
+
+/* Layouts */
+
+.hero {
+    padding: 100px;
+    color: #000000;
+    text-align: center;
+}
+
+.hero p {
+    width: 700px;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+.hero * {
+    margin-top: 0!important;
+    margin-bottom: 30px!important;
+}
+
+.container {
+    padding: 100px;
+}
+
+.dual-container {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.dual-container .left,
+.dual-container .right {
+    flex: 50%;
+}
+
+.dual-container .right {
+    text-align: right!important;
+}
+
+.dual-container p {
+    width: 80%;
+}
+
+.dual-container .right p {
+    margin-left: 20%;
+}
+
+.red-container {
+    background-color: var(--brand-red);
+}
+
+.red-container h1,
+.red-container p {
+    color: #FFFFFF;
+}
+
+.black-container {
+    background-color: #000000;
+}
+
+.black-container h1,
+.black-container p {
+    color: #FFFFFF;
+}
+
+.black-container h2 {
+    color: var(--brand-red);
+}
+
+/* Buttons */
+
+button {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: var(--font-family);
+    border-radius: 0px 0px 15px 0px;
+    cursor: pointer;
+    transition: opacity 0.2s, border-radius 0.2s;
+    margin-right: 10px;
+}
+
+button.no-margin {
+    margin-right: 0;
+}
+
+button.btn-red {
+    color: #FFFFFF;
+    background-color: var(--brand-red);
+}
+
+button.btn-white {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+button.btn-18 {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+button:hover {
+    opacity: 0.7;
+    border-radius: 0px 0px 20px 0px;
+}
+
+button:active {
+    opacity: 0.5;
+    border-radius: 0px 0px 30px 0px;
+}
+
+button.btn-30 {
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--brand-red);
+}
+
+/* Games */
+
+.game-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.game {
+    border-radius: 10px;
+    margin: 0 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 300px;
+}
+
+/* News */
+
+.news-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.news {
+    border-radius: 20px;
+    margin: 0 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 230px;
+    padding: 30px;
+}
+
+.news h2 {
+    width: 600px;
+    font-weight: 800;
+}
+
+.news p {
+    width: 450px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 70px;
+}
+
+.footer .left,
+.footer .center,
+.footer .right {
+    flex: 33%;
+    height: 300px;
+}
+
+.footer h2 {
+    margin-top: 0;
+    color: var(--brand-red);
+}
+
+.footer a,
+.footer p {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .center p,
+.footer .right p {
+    margin: 20px 0!important;
+}
+
+.footer p {
+    width: 90%;
+}
+
+.footer .socials a {
+    margin-right: 20px;
+}

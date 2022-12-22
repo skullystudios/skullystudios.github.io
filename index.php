@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+		<title>Skully Studios</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="left">
+				<a href="index.php"><img src="assets/img/brand/black logo.png" alt="Skully Studios" id="navlogo"></a>
+			</div>
+			<div class="center">
+				<a href="games" id="games" class="navlink">Games</a>
+				<a href="https://store.skully.dev" id="store" class="navlink">Store</a>
+				<a href="https://news.skully.dev" id="news" class="navlink">News</a>
+				<a href="https://launcher.skully.dev" id="launcher" class="navlink">Launcher</a>
+				<a href="https://team.skully.dev" id="team" class="navlink">Team</a>
+				<a href="https://brand.skully.dev" id="brand" class="navlink">Brand</a>
+			</div>
+			<div class="right">
+				<a href="login" id="login" class="navlink"><button class="btn-red btn-18">Login</button></a>
+			</div>
+		</div>
+		<div style="height: 88px;"></div>
+		<div class="hero">
+			<img src="assets/img/brand/black icon.png" alt="Skully Studios" height="50px">
+			<h1 class="black-text"><span class="red-text">Play</span> for everybody</h1>
+			<p>We're an independent game development group trying to deliver the best gaming experience you can get in a game.</p>
+			<a href="#about"><button class="btn-red btn-30">More about us</button></a>
+			<a href="https://launcher.skully.dev"><button class="btn-30 no-margin">Skully Launcher</button></a>
+		</div>
+		<div class="red-container dual-container">
+			<div class="left">
+				<h2 class="subheader">Skully Launcher</h2>
+				<h1>One app for all of Skully.</h1>
+				<p>The Skully Launcher is a companion app for not only our games, but chatting with your friends, Skully news, and more.</p>
+				<a href="launcher/download"><button>Download for free</button></a>
+				<a href="https://launcher.skully.dev"><button class="btn-white no-margin">Learn more</button></a>
+			</div>
+			<div class="right">
+				<img src="assets/img/launcher/pc and mobile.png" alt="Skully Launcher is available for Windows, Mac, Linux, and your Android phone." width="700px">
+			</div>
+		</div>
+		<div class="black-container dual-container">
+			<div class="left">
+				<img src="assets/img/brand/illustrations/billboard.png" alt="Skully Studios logo on a billboard." width="500px">
+			</div>
+			<div class="right">
+				<h2 class="subheader">Let's properly introduce ourselves.</h2>
+				<h1>The group. The myth. <span class="red-text">The legends.</span></h1>
+				<p>We're a super cool team of developers, designers, and artists who are dedicated to making the best games possible. Not only that, but we love to have fun while we're at it.</p>
+				<a href="https://team.skully.dev"><button class="btn-red">Meet the team</button></a>
+				<a href="https://brand.skully.dev"><button class="btn-white no-margin">Brand Guidelines</button></a>
+			</div>
+		</div>
+		<div class="container">
+			<h2 class="subheading">Our proudest works</h2>
+			<h1><span class="black-text">Our</span><br>Games</h1>
+			<p>Check our what games we have in store for you.</p>
+			<div class="game-container">
+				<a href="https://lethal.skully.dev"><div class="game lethal"></div></a>
+			</div>
+		</div>
+		<!-- div class="red-container container">
+			<h2 class="subheading">Here's what we've been up to</h2>
+			<h1>Skully<br><span class="black-text">News</span></h1>
+			<p>Stay up-to-date with the latest news from Skully Studios.</p>
+			<div class="news-container">
+				<div class="news" id="lethal-has-launched">
+					<img src="assets/img/games/lethal/logo without watermark.png" alt="Lethal" height="30px">
+					<h2 class="white-text">LETHAL. HAS. LAUNCHED.</h2>
+					<p>LETHAL has officially launched on the Skully Launcher! Check it out now!</p>
+					<a href="https://lethal.skully.dev"><button class="btn-red">Play now</button></a>
+					<a href="news/lethal-has-launched"><button class="btn-white no-margin">Read more</button></a>
+				</div>
+			</div>
+		</div -->
+		<div class="footer">
+			<div class="left">
+				<img src="assets/img/brand/logo.png" alt="Skully Studios" height="50px">
+				<p>Skully Studios is an indie gamedev group delivering the best possible gaming experience.</p>
+				<div class="socials">
+					<a href="https://twitter.com/skully_studios"><img src="assets/img/brand/socials/twitter.png" alt="Twitter" height="30px"></a>
+					<a href="discord"><img src="assets/img/brand/socials/discord.png" alt="Discord" height="30px"></a>
+					<a href="https://www.youtube.com/@skullystudios"><img src="assets/img/brand/socials/youtube.png" alt="YouTube" height="30px"></a>
+				</div>
+			</div>
+			<div class="center">
+				<h2 class="subheader">Quick Links</h2>
+				<p><a href="games">Games</a></p>
+				<p><a href="https://store.skully.dev">Store</a></p>
+				<p><a href="https://news.skully.dev">News</a></p>
+				<p><a href="https://launcher.skully.dev">Launcher</a></p>
+				<p><a href="https://team.skully.dev">Team</a></p>
+				<p><a href="https://brand.skully.dev">Brand</a></p>
+			</div>
+			<div class="right">
+				<h2 class="subheader">Games</h2>
+				<p><a href="https://store.skully.dev">Store</a><br></p>
+				<p><a href="https://lethal.skully.dev">LETHAL</a></p>
+ 			</div>
+		</div>
+		<script type="text/javascript">
+			window.addEventListener('scroll', function() { 
+				if(Math.round(window.scrollY) > 1320 && Math.round(window.scrollY) < 2020) {
+					const navlinks = document.querySelectorAll('.navlink');
+					const navlogo = document.getElementById('navlogo');
+					const navbutton = document.getElementById('login');
+
+					navlinks.forEach(function(navlink) {
+						if (!navlink.classList.contains('red-text')) {
+							navlink.classList.add('red-text');
+						}
+					});
+
+					navlogo.src = "assets/img/brand/logo.png";
+				} else {
+					const navlinks = document.querySelectorAll('.navlink');
+					const navlogo = document.getElementById('navlogo');
+
+					navlinks.forEach(function(navlink) {
+						if (navlink.classList.contains('red-text')) {
+							navlink.classList.remove('red-text');
+						}
+					});
+					
+					navlogo.src = "assets/img/brand/black logo.png";
+				}
+			});
+		</script>
+	</body>
+</html>
